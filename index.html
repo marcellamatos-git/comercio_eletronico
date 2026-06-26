@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comercio Eletônico</title>
 
-    <script src="js/script_comercio.js"></script>
+    <script src="js/script_comercio.js" defer></script>
 
 </head>
 <body>
@@ -19,6 +19,8 @@
         <p> Acima de R$ 20.000,00 - 20%</p>
     </div>
 
+    <hr>
+
     <h3>cadastro de produtos</h3>
 
     <form id="formproduto">
@@ -27,8 +29,8 @@
     <input type="text" name="descricao" id="descricao">
     <br>
 
-    <label for="valor unitario">Valor Unitário</label>
-    <input type="number" name="valor unitario" id="valor unitario"> 
+    <label for="valor">Valor Unitário</label>
+    <input type="number" name="valor" id="valor"> 
     <br>
 
     <label for="quantidade">Quantidade</label>
@@ -39,13 +41,25 @@
     
     </form>
 
+    <hr>
+
+
+
     <h2>produtos cadastrados</h2>
+    <div id="listaprodutos"></div>
+           <p>Descrição</p>
+           <p>Valor Unitário</p>
+           <p>Quantidade</p>
+           <p> Valor Total</p>
 
-    
-
-    
+    </form>
 
 </div>
+
+</body>
+</html>
+
+
 
 
     
